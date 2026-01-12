@@ -16,9 +16,49 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammed Hoque | Backend Engineer",
+  title: {
+    default: "Mohammed Hoque | Backend Engineer",
+    template: "%s | Mohammed Hoque",
+  },
   description:
     "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
+  keywords: [
+    "Backend Engineer",
+    "Node.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Redis",
+    "NestJS",
+    "Software Engineer",
+    "Full Stack Developer",
+  ],
+  authors: [{ name: "Mohammed Hoque" }],
+  creator: "Mohammed Hoque",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Mohammed Hoque Portfolio",
+    title: "Mohammed Hoque | Backend Engineer",
+    description:
+      "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Mohammed Hoque | Backend Engineer",
+    description:
+      "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
