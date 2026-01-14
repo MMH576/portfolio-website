@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Mohammed Hoque | Backend Engineer",
-    template: "%s | Mohammed Hoque",
+    default: "Mohammed Monjorul Hoque | Backend Engineer",
+    template: "%s | Mohammed Monjorul Hoque",
   },
   description:
     "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
@@ -32,19 +32,19 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Full Stack Developer",
   ],
-  authors: [{ name: "Mohammed Hoque" }],
-  creator: "Mohammed Hoque",
+  authors: [{ name: "Mohammed Monjorul Hoque" }],
+  creator: "Mohammed Monjorul Hoque",
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "Mohammed Hoque Portfolio",
-    title: "Mohammed Hoque | Backend Engineer",
+    siteName: "Mohammed Monjorul Hoque Portfolio",
+    title: "Mohammed Monjorul Hoque | Backend Engineer",
     description:
       "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mohammed Hoque | Backend Engineer",
+    title: "Mohammed Monjorul Hoque | Backend Engineer",
     description:
       "Backend-focused CS student building transactional, event-driven systems with Node.js, PostgreSQL, and Redis.",
   },

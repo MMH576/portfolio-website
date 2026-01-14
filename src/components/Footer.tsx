@@ -7,7 +7,7 @@ export function Footer() {
       <div className="mx-auto max-w-5xl px-4 py-8">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Mohammed Hoque. All rights reserved.
+            &copy; {new Date().getFullYear()} Mohammed Monjorul Hoque. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <Link
@@ -19,15 +19,13 @@ export function Footer() {
             >
               <Github className="h-5 w-5" />
             </Link>
-            <Link
-              href="https://linkedin.com/in/mohammed-hoque"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-muted-foreground transition-colors hover:text-foreground"
-              aria-label="LinkedIn"
+            <span
+              className="text-muted-foreground/50 cursor-not-allowed"
+              aria-label="LinkedIn (temporarily unavailable)"
+              title="LinkedIn temporarily unavailable"
             >
               <Linkedin className="h-5 w-5" />
-            </Link>
+            </span>
           </div>
         </div>
       </div>

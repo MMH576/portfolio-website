@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 import { CopyButton } from "@/components/CopyButton";
 
 export const metadata = {
-  title: "Contact | Mohammed Hoque",
-  description: "Get in touch with Mohammed Hoque",
+  title: "Contact | Mohammed Monjorul Hoque",
+  description: "Get in touch with Mohammed Monjorul Hoque",
 };
 
-const EMAIL = "mohammed.hoque@example.com";
+const EMAIL = "monjorulmohammed@gmail.com";
 
 export default function ContactPage() {
   return (
@@ -54,16 +54,15 @@ export default function ContactPage() {
                 GitHub
               </Button>
             </Link>
-            <Link
-              href="https://linkedin.com/in/mohammed-hoque"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Button
+              variant="outline"
+              className="gap-2 opacity-50 cursor-not-allowed"
+              disabled
+              title="LinkedIn temporarily unavailable"
             >
-              <Button variant="outline" className="gap-2">
-                <Linkedin className="h-4 w-4" />
-                LinkedIn
-              </Button>
-            </Link>
+              <Linkedin className="h-4 w-4" />
+              LinkedIn
+            </Button>
           </div>
         </div>
 
