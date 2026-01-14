@@ -3,8 +3,8 @@ import { Download, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export const metadata = {
-  title: "Resume | Mohammed Hoque",
-  description: "Download Mohammed Hoque's resume - Backend Engineer",
+  title: "Resume | Mohammed Monjorul Hoque",
+  description: "Download Mohammed Monjorul Hoque's resume - Backend Engineer",
 };
 
 export default function ResumePage() {
@@ -18,13 +18,13 @@ export default function ResumePage() {
       </div>
 
       <div className="flex flex-col gap-4 sm:flex-row">
-        <Link href="/Mohammed_Hoque_Resume.pdf" download>
+        <Link href="/Resume_v9.pdf" download>
           <Button size="lg" className="gap-2 w-full sm:w-auto">
             <Download className="h-4 w-4" />
             Download PDF
           </Button>
         </Link>
-        <Link href="/Mohammed_Hoque_Resume.pdf" target="_blank">
+        <Link href="/Resume_v9.pdf" target="_blank">
           <Button size="lg" variant="outline" className="gap-2 w-full sm:w-auto">
             <ExternalLink className="h-4 w-4" />
             View in Browser
@@ -41,11 +41,11 @@ export default function ResumePage() {
           </div>
           <div>
             <h3 className="font-medium text-foreground">Technologies</h3>
-            <p>Node.js, TypeScript, PostgreSQL, Redis, Docker, NestJS</p>
+            <p>Node.js, TypeScript, PostgreSQL, Redis, Docker, NestJS, React, Next.js</p>
           </div>
           <div>
             <h3 className="font-medium text-foreground">Education</h3>
-            <p>Computer Science Student</p>
+            <p>Computer Science @ York University, Toronto</p>
           </div>
         </div>
       </div>
