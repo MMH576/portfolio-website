@@ -18,13 +18,13 @@ export default function ResumePage() {
       </div>
 
       <div className="flex flex-col gap-4 sm:flex-row">
-        <Link href="/Resume_v9.pdf" download>
+        <Link href="/Resume_v11.pdf" download>
           <Button size="lg" className="gap-2 w-full sm:w-auto">
             <Download className="h-4 w-4" />
             Download PDF
           </Button>
         </Link>
-        <Link href="/Resume_v9.pdf" target="_blank">
+        <Link href="/Resume_v11.pdf" target="_blank">
           <Button size="lg" variant="outline" className="gap-2 w-full sm:w-auto">
             <ExternalLink className="h-4 w-4" />
             View in Browser
