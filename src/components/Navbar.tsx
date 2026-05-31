@@ -11,6 +11,8 @@ import { cn } from "@/lib/utils";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
+  { href: "/coop-portfolio", label: "COOP 2100" },
+  { href: "/coop-experience", label: "Co-op Experience" },
   { href: "/resume", label: "Resume" },
   { href: "/contact", label: "Contact" },
 ];
