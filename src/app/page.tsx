@@ -37,7 +37,7 @@ export default function HomePage() {
                 </span>
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-muted px-3 py-1.5 text-sm font-medium">
                   <Briefcase className="h-4 w-4 text-primary" />
-                  Open to Opportunities
+                  Currently Working at Hydro One (Acronym Solutions) as a Backend Engineer.
                 </span>
               </div>
 
@@ -47,7 +47,7 @@ export default function HomePage() {
                 <p className="mt-2 text-foreground leading-relaxed">
                   CS student at York University passionate about building transactional, event-driven systems.
                   I specialize in Node.js, PostgreSQL, and Redis to create reliable backend
-                  infrastructure that scales. Currently seeking internship and co-op opportunities.
+                  infrastructure that scales.
                 </p>
               </div>
 
